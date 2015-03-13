@@ -1,0 +1,1 @@
+open $(docker port shell | sed "s?.*:?http://$(boot2docker ip):?")
