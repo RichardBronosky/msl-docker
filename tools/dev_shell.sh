@@ -9,4 +9,4 @@ tools/cleanup_containers.sh
 docker run -i -t -P --rm --name shell --link redis-server:redis.local \
 -v /Users/bruno/src/msl/packages/service_layer:/app \
 -v /Users/bruno/src/msl/packages/service_layer_config:/app_config \
-richardbronosky/msl-celery tmux
+richardbronosky/mobile-services-layer tmux
